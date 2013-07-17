@@ -1,0 +1,5 @@
+<%= link_to "New Test", new_test_path %>
+<% for t in @tests %>
+	<p>
+		<%= t.name%>
+<%end%>

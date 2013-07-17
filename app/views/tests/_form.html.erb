@@ -1,0 +1,15 @@
+</br>
+</br>
+<%= form_for(@test) do |form| %>
+	  <p>
+		  <%= form.label :name, "Name" %><br />
+		  <%= form.text_field :name %><br />
+	  </p>
+	<div>
+		<p>
+			<%= form.submit "Create", :class => "form-submit-button" %>
+		</p>
+	</div>
+		
+<%end%>
+</br>
